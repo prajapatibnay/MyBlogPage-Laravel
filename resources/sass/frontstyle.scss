@@ -1,0 +1,126 @@
+.header{
+    background-color: #202c3b;
+    padding: 10px 0;
+
+    .bg-light{
+        background-color: transparent !important;
+    }
+
+    img{
+        padding: 10px 0;
+    }
+
+    .navbar-nav{
+        a{
+            color: #fff !important;
+            font-size: 20px !important;
+            padding: 0 36px !important;
+        }
+    }
+}
+
+.homepage-blog-section{
+    background-color: #f7f7f7;
+    padding: 40px 50px;
+
+    .blog-heading{
+        padding: 0 0 30px;
+    
+        h4{
+            @extend %heading-style;
+        }
+    }
+
+   .blog-post{
+       background-color: #fff;
+       margin: auto 10px;
+       transition: transform .1s;
+
+       &:hover{
+            -ms-transform: scale(1.01); /* IE 9 */
+            -webkit-transform: scale(1.01); /* Safari 3-8 */
+            transform: scale(1.01);   
+       }
+
+       img{
+           width: 100%;
+       }
+
+       .blog-contents{
+           padding: 25px 30px;
+
+           h5{
+              font-size: 32px; 
+              text-align: left;
+           }
+
+           p{
+            font-size: 16px;
+            text-align: justify;
+           }
+
+           .posted-by{
+               p.author{
+                   display: inline-block;
+                   float: left;
+               }
+
+               p.date{
+                   display: inline-block;
+               }
+           }
+       }
+   } 
+
+   a.description{
+       color: #000;
+       text-decoration: none;
+   }
+}
+
+.footer{
+    background-color: #202c3b;
+    padding: 15px 0;
+
+    h4{
+        color: #fff;
+        font-size: 16px;
+        margin: 0;
+        line-height: normal;
+    }
+}
+
+.singlepage-blog-section{
+    background-color: #f7f7f7;
+    padding: 40px 0;
+
+    .single-page-contents{
+        .posted-by{
+            display: flex;
+            justify-content: center;
+        }
+
+        p.author, p.date{
+            padding: 0 20px;
+            text-transform: uppercase;
+            font-size: 20px;
+        }
+
+        img{
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        h5{
+            @extend %heading-style;
+            padding: 10px 0;
+        }
+
+        p.description{
+            font-size: 16px;
+            padding: 15px 0;
+            text-align: justify;
+        }
+    }
+}

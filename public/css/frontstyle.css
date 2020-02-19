@@ -1,0 +1,122 @@
+.singlepage-blog-section .single-page-contents h5,
+.homepage-blog-section .blog-heading h4 {
+  font-size: 40px;
+}
+
+.header {
+  background-color: #202c3b;
+  padding: 10px 0;
+}
+
+.header .bg-light {
+  background-color: transparent !important;
+}
+
+.header img {
+  padding: 10px 0;
+}
+
+.header .navbar-nav a {
+  color: #fff !important;
+  font-size: 20px !important;
+  padding: 0 36px !important;
+}
+
+.homepage-blog-section {
+  background-color: #f7f7f7;
+  padding: 40px 50px;
+}
+
+.homepage-blog-section .blog-heading {
+  padding: 0 0 30px;
+}
+
+.homepage-blog-section .blog-post {
+  background-color: #fff;
+  margin: auto 10px;
+  transition: transform 0.1s;
+}
+
+.homepage-blog-section .blog-post:hover {
+  /* IE 9 */
+  /* Safari 3-8 */
+  transform: scale(1.01);
+}
+
+.homepage-blog-section .blog-post img {
+  width: 100%;
+}
+
+.homepage-blog-section .blog-post .blog-contents {
+  padding: 25px 30px;
+}
+
+.homepage-blog-section .blog-post .blog-contents h5 {
+  font-size: 32px;
+  text-align: left;
+}
+
+.homepage-blog-section .blog-post .blog-contents p {
+  font-size: 16px;
+  text-align: justify;
+}
+
+.homepage-blog-section .blog-post .blog-contents .posted-by p.author {
+  display: inline-block;
+  float: left;
+}
+
+.homepage-blog-section .blog-post .blog-contents .posted-by p.date {
+  display: inline-block;
+}
+
+.homepage-blog-section a.description {
+  color: #000;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #202c3b;
+  padding: 15px 0;
+}
+
+.footer h4 {
+  color: #fff;
+  font-size: 16px;
+  margin: 0;
+  line-height: normal;
+}
+
+.singlepage-blog-section {
+  background-color: #f7f7f7;
+  padding: 40px 0;
+}
+
+.singlepage-blog-section .single-page-contents .posted-by {
+  display: flex;
+  justify-content: center;
+}
+
+.singlepage-blog-section .single-page-contents p.author,
+.singlepage-blog-section .single-page-contents p.date {
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.singlepage-blog-section .single-page-contents img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.singlepage-blog-section .single-page-contents h5 {
+  padding: 10px 0;
+}
+
+.singlepage-blog-section .single-page-contents p.description {
+  font-size: 16px;
+  padding: 15px 0;
+  text-align: justify;
+}
+

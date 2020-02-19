@@ -1,0 +1,42 @@
+.blog-post-title{
+    background-color: #e7d230;
+    padding: 10px 0;
+}
+
+.table-design {
+    border-collapse: collapse;
+    width: 100%;
+
+    td, th{
+        border: 1px solid #ddd;
+        padding: 8px;      
+    }
+
+    tr{
+        &:nth-child(even){
+            background-color: #f2f2f2;
+        }
+
+        &:hover{
+            background-color: #ddd;
+        }
+    }
+
+    th{
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #4CAF50;
+        color: white;
+    }
+  }
+
+  .add-new-post{
+      padding: 20px 0;
+  }
+
+  .blog-post-content, .image-post-content{
+      button{
+          margin: 20px 0;
+      }
+  }
