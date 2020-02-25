@@ -120,3 +120,15 @@
   text-align: justify;
 }
 
+.singlepage-blog-section .read-next h4 {
+  margin-top: 85px;
+}
+
+.singlepage-blog-section .next-blog {
+  padding-bottom: 15px;
+}
+
+.singlepage-blog-section .next-blog img {
+  width: 100%;
+}
+

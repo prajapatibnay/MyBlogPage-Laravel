@@ -16,6 +16,7 @@ class FrontEndController extends Controller
 
     public function single_page($id){
         $image = Image::find($id);
-        return view('frontend.singlepage', compact('image'));
+        $allpost= Image::where('id','!=', $id)->get();
+        return view('frontend.singlepage', compact('image', 'allpost'));
     }
 }

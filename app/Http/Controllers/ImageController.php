@@ -9,7 +9,8 @@ use File;
 class ImageController extends Controller
 {
     public function index(){
-        $image = Image::orderBy('created_at', 'desc')->get();
+        // $image = Image::orderBy('created_at', 'desc')->get();
+        $image = Image::latest('created_at')->get();
         return view('admin.image.index', compact('image'));
     }
 
